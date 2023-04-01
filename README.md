@@ -5,6 +5,11 @@ Websocket Using Ratchet PHP
 # Documentation
 ## http://socketo.me/docs/hello-world
 
+
+# Installation
+
+`composer install`
+
 # How to run 
 ## Type to your command `php bin/server.php`
 
