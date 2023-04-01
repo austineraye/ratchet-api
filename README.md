@@ -1,5 +1,5 @@
 # ratchet-api
-Websocket Using Ratchet PHP
+### Websocket Using Ratchet PHP
 
 
 # Documentation
@@ -16,12 +16,12 @@ Websocket Using Ratchet PHP
 ## Open your browser console and add this ff:
 `var conn = new WebSocket('ws://localhost:8080');
 conn.onopen = function(e) {
-    console.log("Connection established!");
-};
+    console.log("Connection established!")
+}
 
 conn.onmessage = function(e) {
     console.log(e.data);
-};`
+}`
 
 ## To send message command
 `conn.send('Your message here')`
